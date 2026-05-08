@@ -1,0 +1,58 @@
+.answer-list h2 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.empty-state {
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+.answer-card {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin-bottom: 0.25rem;
+}
+
+.answer-card:nth-child(odd) {
+    background-color: var(--bg-secondary);
+}
+
+.answer-card:nth-child(even) {
+    background-color: var(--card-bg);
+}
+
+.answer-card-body {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.answer-content-wrapper {
+    flex: 1;
+}
+
+.answer-text {
+    margin: 0 0 0.75rem 0;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.answer-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.answer-author {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.answer-date {
+    color: var(--text-muted);
+}
